@@ -1,0 +1,16 @@
+C:\vs\winform\SSHFrom\SSHFrom\bin\Debug\SSHFrom.exe.config
+C:\vs\winform\SSHFrom\SSHFrom\bin\Debug\SSHFrom.exe
+C:\vs\winform\SSHFrom\SSHFrom\bin\Debug\SSHFrom.pdb
+C:\vs\winform\SSHFrom\SSHFrom\bin\Debug\Org.Mentalis.Security.dll
+C:\vs\winform\SSHFrom\SSHFrom\bin\Debug\DiffieHellman.dll
+C:\vs\winform\SSHFrom\SSHFrom\obj\Debug\SSHFrom.csprojResolveAssemblyReference.cache
+C:\vs\winform\SSHFrom\SSHFrom\obj\Debug\SSHFrom.Form1.resources
+C:\vs\winform\SSHFrom\SSHFrom\obj\Debug\SSHFrom.Properties.Resources.resources
+C:\vs\winform\SSHFrom\SSHFrom\obj\Debug\SSHFrom.csproj.GenerateResource.Cache
+C:\vs\winform\SSHFrom\SSHFrom\obj\Debug\SSHFrom.exe
+C:\vs\winform\SSHFrom\SSHFrom\obj\Debug\SSHFrom.pdb
+C:\vs\winform\SSHFrom\SSHFrom\obj\Debug\SSHFrom.Form2.resources
+C:\vs\winform\SSHFrom\SSHFrom\bin\Debug\Tamir.SharpSSH.dll
+C:\vs\winform\SSHFrom\SSHFrom\bin\Debug\Tamir.SharpSSH.pdb
+C:\vs\winform\SSHFrom\SSHFrom\obj\Debug\SSHFrom.Form3.resources
+C:\vs\winform\SSHFrom\SSHFrom\obj\Debug\SSHFrom.Form4.resources

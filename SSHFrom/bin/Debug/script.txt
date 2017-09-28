@@ -1,0 +1,146 @@
+C:\workspaceyili\DMS\WebContent
+resource,WEB-INF\classes\com,WEB-INF\messages
+10.103.1.174
+root
+123456
+δ֪
+http://10.103.1.174/DMS/index.do
+zip C:\workspaceyili\DMS\WebContent DMS.zip resource,WEB-INF\classes\com,WEB-INF\messages
+sleep 400
+up DMS.zip /home/dms/tomcat/webapps
+sleep 400
+wait cd /home/dms/tomcat/webapps
+sleep 400
+wait rm -rf ./DMS/WEB-INF/classes/com
+sleep 400
+wait unzip -o -d ./DMS ./DMS.zip
+sleep 400
+wait ps -ef|grep /usr/bin/java
+sleep 400
+ck root *([\d]*) [^r]*/usr/bin/java
+sleep 400
+wait cd /home/dms/tomcat/bin
+sleep 400
+./startup.sh
+sleep 2000
+---
+10.140.2.40
+root
+123456
+δ֪
+http://10.140.2.40/index.do
+//zip C:\workspaceyili\DMS\WebContent DMS.zip resource,WEB-INF\classes\com,WEB-INF\messages
+sleep 400
+up DMS.zip /weblogic
+sleep 400
+wait cd /weblogic
+sleep 400
+wait rm -rf ./DMS/WEB-INF/classes/com
+sleep 400
+wait unzip -o -d ./DMS ./DMS.zip
+sleep 400
+wait ps -ef|grep /weblogic/jdk
+sleep 400
+ck root *([\d]*) [^r]*/weblogic/jdk
+sleep 400
+wait cd /weblogic/Oracle/Middleware/Oracle_Home/user_projects/domains/dms_domain/bin/
+sleep 400
+nohup ./startWebLogic.sh &
+sleep 2000
+---
+10.140.2.41
+root
+123456
+δ֪
+http://10.140.2.41/index.do
+//zip C:\workspaceyili\DMS\WebContent DMS.zip resource,WEB-INF\classes\com,WEB-INF\messages
+sleep 400
+up DMS.zip /weblogic
+sleep 400
+wait cd /weblogic
+sleep 400
+wait rm -rf ./DMS/WEB-INF/classes/com
+sleep 400
+wait unzip -o -d ./DMS ./DMS.zip
+sleep 400
+wait ps -ef|grep /weblogic/jdk
+sleep 400
+ck root *([\d]*) [^r]*/weblogic/jdk
+sleep 400
+wait cd /weblogic/Oracle/Middleware/Oracle_Home/user_projects/domains/dms_domain/bin/
+sleep 400
+nohup ./startWebLogic.sh &
+sleep 2000
+---
+10.140.2.34
+root
+123456
+δ֪
+http://10.140.2.34/index.do
+//zip C:\workspaceyili\DMS\WebContent DMS.zip resource,WEB-INF\classes\com,WEB-INF\messages
+sleep 400
+up DMS.zip /weblogic
+sleep 400
+wait cd /weblogic
+sleep 400
+wait rm -rf ./DMS/WEB-INF/classes/com
+sleep 400
+wait unzip -o -d ./DMS ./DMS.zip
+sleep 400
+wait ps -ef|grep /weblogic/jdk
+sleep 400
+ck root *([\d]*) [^r]*/weblogic/jdk
+sleep 400
+wait cd /weblogic/Oracle/Middleware/Oracle_Home/user_projects/domains/dms_domain/bin/
+sleep 400
+nohup ./startWebLogic.sh &
+sleep 2000
+---
+10.140.2.44
+root
+123456
+δ֪
+http://10.140.2.44/index.do
+//zip C:\workspaceyili\DMS\WebContent DMS.zip resource,WEB-INF\classes\com,WEB-INF\messages
+sleep 400
+up DMS.zip /weblogic
+sleep 400
+wait cd /weblogic
+sleep 400
+wait rm -rf ./DMS/WEB-INF/classes/com
+sleep 400
+wait unzip -o -d ./DMS ./DMS.zip
+sleep 400
+wait ps -ef|grep /weblogic/jdk
+sleep 400
+ck root *([\d]*) [^r]*/weblogic/jdk
+sleep 400
+wait cd /weblogic/Oracle/Middleware/Oracle_Home/user_projects/domains/dms_domain/bin/
+sleep 400
+nohup ./startWebLogic.sh &
+sleep 2000
+---
+10.140.2.45
+root
+123456
+δ֪
+http://10.140.2.45/index.do
+//zip C:\workspaceyili\DMS\WebContent DMS.zip resource,WEB-INF\classes\com,WEB-INF\messages
+sleep 400
+up DMS.zip /weblogic
+sleep 400
+wait cd /weblogic
+sleep 400
+wait rm -rf ./DMS/WEB-INF/classes/com
+sleep 400
+wait unzip -o -d ./DMS ./DMS.zip
+sleep 400
+wait ps -ef|grep /weblogic/jdk
+sleep 400
+ck root *([\d]*) [^r]*/weblogic/jdk
+sleep 400
+wait cd /weblogic/Oracle/Middleware/Oracle_Home/user_projects/domains/dms_domain/bin/
+sleep 400
+nohup ./startWebLogic.sh &
+sleep 2000
+---
